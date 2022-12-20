@@ -7,6 +7,7 @@ echo:
 Rem Run RX Better Ver. 104
 set commandline=--noTest
 
+Rem Sometimes is better to start the .bat file
 set executable=xmr-stak-rx.exe
 set runforminutes=120
 set /a runforseconds=runforminutes*60
