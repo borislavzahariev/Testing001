@@ -4,7 +4,7 @@ echo Simple script to restart your miner software after a period of time
 echo -------------------------------------------------------------------
 echo:
 
-Rem Run RX
+Rem Run RX Better Ver. 104
 set commandline=--noTest
 
 set executable=xmr-stak-rx.exe
@@ -13,6 +13,7 @@ set /a runforseconds=runforminutes*60
 set restartinseconds=10
 set /a counter=1
 
+ 
 :start
 Echo:
 Echo Run number %counter% for %runforminutes% minutes
