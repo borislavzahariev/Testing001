@@ -1,4 +1,5 @@
 Rem Command used for HiveOS
+Rem Made this change in April
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash && apt install speedtest -y && speedtest --accept-license
 
 speedtest --accept-license
