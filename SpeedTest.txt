@@ -5,4 +5,4 @@ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.
 speedtest --accept-license
 
 Rem Seems to work fine
-Rem One more comment in July
+Rem One more comment on July 13
